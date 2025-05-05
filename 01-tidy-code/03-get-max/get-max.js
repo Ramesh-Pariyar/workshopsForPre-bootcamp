@@ -1,19 +1,19 @@
 // YOUR CODE BELOW
-function getMax(f, s, a) {
+function getMax(firstNum, secondNum, thirdNum) {
 
-    if (f > s) {
+    if (firstNum > secondNum) {
 
-        if (f > a) {
-             return f;
+        if (firstNum > thirdNum) {
+             return firstNum;
         } 
-        return a;
+        return thirdNum;
         } 
 
-    else if (s > a) {
-        return s;
+    else if (secondNum > thirdNum) {
+        return secondNum;
     }
     else {
-        return a;
+        return thirdNum;
     }
 }
 console.log(`the largest of three is ${getMax(20,25,60)}`);
