@@ -1,5 +1,8 @@
 // YOUR CODE BELOW
 const isTruthy = (value) => {
+    
+    if (!!value) return true;
+    
     if (value === false){
         return "the boolean value false is falsey";
     }
