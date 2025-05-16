@@ -2,7 +2,7 @@
 const isTruthy = (value) => {
     
     if (!!value) return true;
-    
+
     if (value === false){
         return "the boolean value false is falsey";
     }
@@ -12,11 +12,11 @@ const isTruthy = (value) => {
     }
 
     if (value === ''){
-        return "the empty string is falsey( the only falsey string)";
+        return "the empty string is falsey( the only falsey string";
     }
 
     if (value === 0){
-        return "the number 0 is falsey (the only falsey number)";
+        return "the number 0 is falsey (the only falsey number";
     }
     
     return "the undefined is falsey";
